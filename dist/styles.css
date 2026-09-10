@@ -32,6 +32,10 @@ body {
   overflow-x: hidden;
 }
 
+.article-page {
+  font-family: 'OwnglyphYuntaeng', Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif;
+}
+
 body::before {
   content: "";
   position: fixed;
