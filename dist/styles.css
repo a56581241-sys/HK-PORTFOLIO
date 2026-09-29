@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'OwnglyphYuntaeng';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2608211801@font-160/font-160/%EC%98%A8%EA%B8%80%EC%9E%8E%20%EC%9C%A4%ED%83%B1%EC%B2%B4.woff2') format('woff2');
+  src: url('assets/OwnglyphYuntaeng.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
 }
@@ -508,4 +508,8 @@ button { font: inherit; }
 @media (max-width:760px){
   .gallery-item:nth-child(n),.video-card:nth-child(n){transform:none}
   .final-cover::after{right:-10px;bottom:-80px;width:230px;opacity:.7}
+}
+
+body,body *,button,input,textarea,select{
+  font-family:'OwnglyphYuntaeng','Noto Sans KR',sans-serif!important;
 }
