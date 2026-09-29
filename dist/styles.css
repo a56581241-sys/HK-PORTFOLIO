@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'OwnglyphYuntaeng';
-  src: url('assets/OwnglyphYuntaeng.woff2') format('woff2');
-  font-weight: 400;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
 
 :root {
   --ink: #173c6c;
@@ -17,7 +12,6 @@
   --shadow: 0 24px 70px rgba(16, 46, 85, 0.12);
   --max: 1180px;
 }
-
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -26,7 +20,7 @@ body {
   margin: 0;
   color: var(--ink-deep);
   background: var(--paper);
-  font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif;
+  font-family: 'DM Sans', "Noto Sans KR", sans-serif;
   font-size: 16px;
   line-height: 1.65;
   overflow-x: hidden;
@@ -159,7 +153,7 @@ body {
 }
 
 .article-page {
-  font-family: 'OwnglyphYuntaeng', Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif;
+  font-family: 'DM Sans', "Noto Sans KR", sans-serif;
 }
 
 body::before {
@@ -269,8 +263,8 @@ button { font: inherit; }
 .display em,
 .story-content h2,
 .final-tag {
-  font-family: 'OwnglyphYuntaeng', Pretendard, sans-serif;
-  font-weight: 400;
+  font-family: 'DM Sans', "Noto Sans KR", sans-serif;
+  font-weight: 700;
 }
 
 .display em { color: var(--coral); font-style: normal; }
@@ -508,8 +502,4 @@ button { font: inherit; }
 @media (max-width:760px){
   .gallery-item:nth-child(n),.video-card:nth-child(n){transform:none}
   .final-cover::after{right:-10px;bottom:-80px;width:230px;opacity:.7}
-}
-
-body,body *,button,input,textarea,select{
-  font-family:'OwnglyphYuntaeng','Noto Sans KR',sans-serif!important;
 }
